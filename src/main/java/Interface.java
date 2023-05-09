@@ -111,8 +111,8 @@ public class Interface extends JFrame implements ActionListener {
 
     private void showFrame() throws SVGGraphics2DIOException {
         lastFrame = this;
-        
-        //cria um grafo direcionado esparsa
+
+        // cria um grafo direcionado esparsa
         Graph<Integer, String> graph = new DirectedSparseGraph<Integer, String>();
 
         // adiciona os nós e arestas do grafo a partir da árvore AVL
